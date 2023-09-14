@@ -73,6 +73,21 @@
       "relation": "manyToMany",
       "target": "api::category.category",
       "inversedBy": "products"
+    },
+    "size": {
+      "type": "string"
+    },
+    "medium": {
+      "type": "string"
+    },
+    "surface": {
+      "type": "string"
+    },
+    "artwork": {
+      "type": "string"
+    },
+    "createdin": {
+      "type": "string"
     }
   }
 }
