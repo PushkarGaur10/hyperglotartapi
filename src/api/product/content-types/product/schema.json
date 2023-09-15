@@ -29,9 +29,6 @@
     "desc": {
       "type": "text"
     },
-    "price": {
-      "type": "string"
-    },
     "artist": {
       "type": "string"
     },
@@ -88,6 +85,9 @@
     },
     "createdin": {
       "type": "string"
+    },
+    "price": {
+      "type": "decimal"
     }
   }
 }
