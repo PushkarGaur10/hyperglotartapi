@@ -94,6 +94,12 @@
       "relation": "manyToMany",
       "target": "api::genre.genre",
       "inversedBy": "products"
+    },
+    "artists": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::artist.artist",
+      "inversedBy": "products"
     }
   }
 }
